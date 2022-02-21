@@ -240,7 +240,7 @@ export default {
             }
           ]
         });
-        const sound = new Audio(require('./assets/wow.mp3'))
+        const sound = new Audio(require('@/assets/wow.mp3'))
         sound.play()
       }
 
