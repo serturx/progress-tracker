@@ -240,7 +240,7 @@ export default {
             }
           ]
         });
-        const sound = new Audio(require('@/assets/wow.mp3'))
+        const sound = new Audio('https://www.soundboardguy.com/wp-content/uploads/2021/04/Anime-wow-sound-effect.mp3')
         sound.play()
       }
 
